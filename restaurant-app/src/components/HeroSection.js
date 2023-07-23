@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/HeroSection.css";
+import "../components/styles/HeroSection.css";
 import { NavLink } from "react-router-dom";
 import HeroImg from "../assets/hero.jpeg";
 

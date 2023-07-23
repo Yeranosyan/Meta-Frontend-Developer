@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/SpecialsCard.css";
+import "./styles/SpecialsCard.css";
 import Salad from "../assets/greek-salad.jpg";
 import Bruschetta from "../assets/bruschetta.jpeg";
 import Dessert from "../assets/lemon-dessert.jpeg";
@@ -29,7 +29,7 @@ const SpecialsCard = () => {
       title: "Lemon Dessert",
       price: "$5.00",
       description:
-        "This comes straight from Grandma's recipe book. Every last ingredient has been sourced and is as authentic as can be imagined.",
+        "This comes straight from Grandma's recipe book. Every last ingredient has been sourced and is as authentic as can be imagined. Try  in now..",
       order: "Order a delivery",
     },
   ];

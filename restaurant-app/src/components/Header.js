@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../components/Header.css";
+import "../components/styles/Header.css";
 import { NavLink } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Logo from "../assets/logo.jpg";

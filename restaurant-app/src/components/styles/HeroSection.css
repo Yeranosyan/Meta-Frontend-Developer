@@ -6,7 +6,7 @@
 .hero-section-container {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   padding: 60px 0;
   color: #fff;
@@ -67,36 +67,28 @@ h2 {
   width: 100%;
 }
 
+.section-left h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
 @media screen and (max-width: 1024px) {
+  .hero-section-background {
+    padding-top: 10vh;
+  }
+
   .image-box {
     right: 0;
+    width: 300px;
+    height: 370px;
   }
 
   .hero-section-container {
     width: 100%;
     padding: 30px;
-  }
-}
-
-@media screen and (max-width: 924px) {
-  .image-box {
-    width: 340px;
-    height: 380px;
-  }
-}
-
-@media screen and (max-width: 830px) {
-  .image-box {
-    width: 300px;
-    height: 370px;
-  }
-
-  h1 {
-    font-size: 50pt;
-  }
-
-  h2 {
-    font-size: 34pt;
   }
 }
 
