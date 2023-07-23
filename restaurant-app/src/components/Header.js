@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../components/Header.css";
 import { NavLink } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import Logo from "../assets/logo.jpg";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -11,8 +12,7 @@ const Header = () => {
     <>
       <header className="header-container">
         <NavLink to="/">
-          {/* <img src = { Logo } alt = "Little Lemon logo" />*/}
-          Little Lemon
+          {<img className="logo-img" src={Logo} alt="Little Lemon logo" />}
         </NavLink>
         <nav>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -40,7 +40,15 @@ const Header = () => {
           {click ? (
             <AiOutlineClose size={20} style={{ color: "#333333" }} />
           ) : (
-            <AiOutlineMenu size={20} style={{ color: "#333333" }} />
+            <AiOutlineMenu
+              size={30}
+              style={{
+                color: "#333333",
+                borderLeft: "1px solid #333333",
+                paddingLeft: "10px",
+                height: "20px",
+              }}
+            />
           )}
         </div>
       </header>

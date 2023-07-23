@@ -24,6 +24,9 @@ h1 {
 h2 {
   font-size: 40pt;
 }
+h3 {
+  font-size: 18pt;
+}
 
 ul {
   list-style-type: none;
@@ -32,4 +35,12 @@ ul {
 a {
   text-decoration: none;
   color: #333333;
+}
+
+@media screen and (max-width: 1024px) {
+  .specials-section-container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
