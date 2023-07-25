@@ -1,12 +1,3 @@
-# Little-Lemon - Capstone Project, create by Gagik Yeranosyan 2023
-
-# Command for Routing
-
-npm install react-router-dom@6
-
-# React Icons
-
-npm install react-icons --save
 
 # Getting Started with Create React App
 
